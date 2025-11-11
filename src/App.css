@@ -1,0 +1,73 @@
+.book-title {
+  font-weight: 700 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.book-cover-card {
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.book-cover-card:hover {
+  transform: scale(1.02);
+}
+
+.book-cover {
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.price-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.buy-button {
+  transition: transform 0.2s ease !important;
+}
+
+.buy-button:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.testimonial {
+  font-style: italic;
+  position: relative;
+}
+
+.testimonial::before {
+  content: '"';
+  font-size: 3rem;
+  color: rgba(25, 118, 210, 0.1);
+  position: absolute;
+  top: -20px;
+  left: -15px;
+}
+
+.footer-cta {
+  margin-top: 60px;
+}
+
+.cta-button {
+  font-weight: bold !important;
+  transition: all 0.3s ease !important;
+}
+
+.cta-button:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (max-width: 600px) {
+  .book-title {
+    font-size: 2.5rem !important;
+  }
+  
+  .book-cover {
+    max-height: 350px;
+  }
+}

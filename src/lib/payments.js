@@ -2,7 +2,7 @@
 // IMPORTANT: This webapp will be deployed to its own URL (e.g., Netlify)
 // But it needs to call back to the platform's API for payment processing
 // PLATFORM_URL = Platform API endpoint (where payment APIs are hosted)
-const PLATFORM_URL = 'http://localhost:3000'  // Platform API endpoint
+const PLATFORM_URL = 'https://builtbyme.ai/'  // Platform API endpoint
 
 /**
  * Detect if running in Sandpack preview (BuiltByMe platform)
